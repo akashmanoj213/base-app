@@ -1,0 +1,13 @@
+runtime: nodejs14
+env: standard
+instance_class: F1
+automatic_scaling:
+  min_idle_instances: 1
+  max_idle_instances: automatic
+  min_pending_latency: automatic
+  max_pending_latency: automatic
+
+env_variables:
+  BEARER_TOKEN: "EAAGEkpu5T3ABAF2gThTD070UcWiZCxaqmkJ8o09GNw7WF5XVbVOisWoGk0SoDvXZBIOmK4U4ZCARHo89rK3qlmjsBZAOYNLQbUa9hj2hLIPXlXVGlx2qCrkPC1VnsIyw5rsfGdUa7kIZCKcq0UBadsZCqHQlireDWPxjRwTbwjEM2dZBCzI0Ha4ZCOuRVkDYxhB0BR56QhG4eJNT5F8OnelK"
+  PORT: 5000
+  VERIFY_TOKEN: "Hello"
